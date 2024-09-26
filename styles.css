@@ -88,10 +88,9 @@ img {
 }
 
 .project-gallery {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
 }
 
 .project-gallery article {
@@ -110,3 +109,19 @@ img {
     border-radius: 10px;
 }
 
+#skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills ul li {
+    background-color:#e0afa058;
+    border: 1px solid #E0AFA0;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
