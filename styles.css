@@ -125,3 +125,32 @@ img {
     margin: 5px;
     text-align: center;
 }
+
+footer {
+    font-size: x-small;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social-links {
+    padding: 10px 0 0 0;
+}
+
+footer .social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
