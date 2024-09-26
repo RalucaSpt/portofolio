@@ -87,5 +87,26 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.project-gallery {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.project-gallery article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
