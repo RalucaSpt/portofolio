@@ -13,7 +13,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <article>
               <h4>${project.name}</h4>
               <img src="${project.picturePath}" alt="${project.name}" style="width:300px; height:auto;">
-              <p>${project.description}</p>
+              <ul>
+                ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
+              </ul>
             </article>
           `;
   
