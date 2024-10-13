@@ -69,6 +69,7 @@ nav ul li a:hover {
 }
 
 main {
+    margin: 40px;
     padding: 20px;
 }
 
@@ -102,16 +103,17 @@ h3 {
 }
 
 .project-gallery article:hover {
-    background-color: #e0afa058;
+    transform: scale(1.1);
 }
 
 .project-gallery article {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px #0000001a;
-    margin: 10px;
-    padding: 20px;
-    width: 300px;
+    margin:20px;
+    padding: 10px;
+    width: 350px;
+    height: 250px;
     text-align: center;
 }
 
@@ -119,7 +121,35 @@ h3 {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    transition: opacity 0.3s ease-in-out;
 }
+
+.project-gallery h4 {
+    margin-bottom: 10px;
+}
+
+.project-gallery article p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    color: #463f3a;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project-gallery article:hover img {
+    opacity: 0.1; 
+}
+
+.project-gallery article:hover p {
+    opacity: 1; 
+}
+
+
 
 #skills ul {
     display: grid;
