@@ -4,7 +4,7 @@
         "name": "AGH For Construct Website",
         "link": "https://ralucaspt.github.io/aghforconstruct/",
         "repoLink": "https://github.com/RalucaSpt/aghforconstruct",
-        "picturePath": "pictures/aghforconstruct.png",
+        "picturePath": "pictures\\ahgforconstruct.png",
         "description": "Offers services in water well drilling, geothermal installations, and geological surveys.",
         "category": "Web Development"
       },
@@ -12,7 +12,7 @@
         "name": "Coming Soon page",
         "link": "https://ralucaspt.github.io/comingsoon/comingsoon.html",
         "repoLink": "https://github.com/RalucaSpt/comingsoon",
-        "picturePath": "pictures/comingsoon.png",
+        "picturePath": "pictures\\comingsoon.png",
         "description": "A 'Coming Soon' page for an upcoming project.",
         "category": "Web Development"
       },
@@ -20,7 +20,7 @@
         "name": "Currency Converter",
         "link": "https://ralucaspt.github.io/currencyconverter/",
         "repoLink": "https://github.com/RalucaSpt/currencyconverter",
-        "picturePath": "pictures/currencyconverter.png",
+        "picturePath": "pictures\\currencyconverter.png",
         "description": "A web application to convert between different currencies.",
         "category": "Web Development"
       },
@@ -28,39 +28,23 @@
         "name": "Menu",
         "link": "https://ralucaspt.github.io/menu/",
         "repoLink": "https://github.com/RalucaSpt/menu",
-        "picturePath": "pictures/menu.png",
+        "picturePath": "pictures\\menu.png",
         "description": "A simple menu layout for a website.",
-        "category": "Web Development"
-      },
-      {
-        "name": "Portfolio",
-        "link": "https://ralucaspt.github.io/portfolio/",
-        "repoLink": "https://github.com/RalucaSpt/portfolio",
-        "picturePath": "pictures/portfolio.png",
-        "description": "A personal portfolio website showcasing various projects.",
         "category": "Web Development"
       },
       {
         "name": "Flex vs Grid",
         "link": "https://ralucaspt.github.io/sitelayout/flex.html",
         "repoLink": "https://github.com/RalucaSpt/sitelayout",
-        "picturePath": "pictures/flexvgrid.png",
+        "picturePath": "pictures\\flexgrid.png",
         "description": "A comparison between CSS Flexbox and Grid layout systems.",
         "category": "Web Development"
       },
       {
-        "name": "TechTreck",
-        "link": "https://ralucaspt.github.io/TechTreck/",
-        "repoLink": "https://github.com/RalucaSpt/TechTreck",
-        "picturePath": "pictures/techtreck.png",
-        "description": "A technology blog layout template.",
-        "category": "Web Development"
-      },
-      {
         "name": "Tip Calculator",
-        "link": "https://ralucaspt.github.io/tipcalculator/",
+        "link": "https://ralucaspt.github.io/tipcalculator/tipcalculator.html",
         "repoLink": "https://github.com/RalucaSpt/tipcalculator",
-        "picturePath": "pictures/tipcalculator.png",
+        "picturePath": "pictures\\tipcalculator.png",
         "description": "A calculator to quickly compute tips based on total amounts.",
         "category": "Web Development"
       },
@@ -68,7 +52,7 @@
         "name": "Who Pays",
         "link": "https://ralucaspt.github.io/whopays/",
         "repoLink": "https://github.com/RalucaSpt/whopays",
-        "picturePath": "pictures/whopays.png",
+        "picturePath": "pictures\\whopays.png",
         "description": "A tool to help decide who pays in a group.",
         "category": "Web Development"
       }
