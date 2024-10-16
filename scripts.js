@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 ${project.keywords.map(keyword => `<li>${keyword}</li>`).join('')}
               </ul>
             </article>
+            <a href="${project.repoLink}" class="btn">GitHub</a>
           `;
   
           projectElement.innerHTML = projectArticle;
